@@ -2,6 +2,9 @@
     "name": "Splitwise for Mint.com",
     "version": "1.0",
     "description": "Share the love",
+    "icons": {
+        "32": "img/splitwise32.png"
+    },
     "permissions": [
         "https://www.splitwise.com/*",
         "declarativeContent",
