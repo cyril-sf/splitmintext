@@ -6,16 +6,17 @@
         "32": "img/splitwise32.png"
     },
     "permissions": [
-        "https://www.splitwise.com/*",
         "declarativeContent",
         "tabs"
     ],
+    "host_permissions": [
+        "https://www.splitwise.com/"
+    ],
     "background": {
-        "scripts": ["background.js"],
-        "persistent": false
+        "service_worker": "background.js"
     },
-    "page_action": {
+    "action": {
         "default_popup": "popup.html"
     },
-    "manifest_version": 2
+    "manifest_version": 3
   }
