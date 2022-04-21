@@ -7,10 +7,12 @@
     },
     "permissions": [
         "declarativeContent",
-        "tabs"
+        "identity"
     ],
     "host_permissions": [
-        "https://www.splitwise.com/"
+        "https://www.splitwise.com/",
+        "https://secure.splitwise.com/oauth/authorize/*",
+        "https://secure.splitwise.com/oauth/token/*"
     ],
     "background": {
         "service_worker": "background.js"
